@@ -544,15 +544,32 @@ main { padding-top: var(--header-h); }
 }
 .footer-col a:hover { opacity: 1; color: var(--c-accent); }
 
-.footer-bottom {
+.footer-legal {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 24px;
+  padding: 24px 0;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  line-height: 1.9;
+  opacity: 0.55;
+}
+.footer-legal strong { font-weight: 600; opacity: 0.9; }
+.footer-legal .legal-note {
+  margin-top: 10px;
+  font-size: 10px;
+  opacity: 0.6;
+  letter-spacing: 0.05em;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   font-family: var(--f-mono);
   font-size: 11px;
   letter-spacing: 0.12em;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 /* === MOBILE DRAWER === */
