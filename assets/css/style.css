@@ -974,7 +974,7 @@ main {
     min-height:580px
   }
   .hero-img {
-    object-position:51% 30%
+    object-position:63% 30%
   }
   .hero:after {
     background:linear-gradient(0deg,rgba(6,9,6,.86) 0%,rgba(6,9,6,.52) 35%,rgba(6,9,6,0) 78%)
