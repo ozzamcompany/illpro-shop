@@ -2,366 +2,470 @@
   "products": [
     {
       "id": "ip-001",
-      "name": "OVERSIZED HOODIE",
-      "nameKr": "오버 후드티",
-      "category": "TOPS",
-      "price": 39900,
-      "colors": ["CHARCOAL", "BLACK", "OFF WHITE"],
-      "sizes": ["FREE"],
-      "images": ["assets/images/ip-001-1.jpg", "assets/images/ip-001-2.jpg"],
-      "description": "데일리로 입기 좋은 무지 오버 후드티. 봄·가을 환절기 1순위.\n\n• 소재: 코튼 70%, 폴리 30%\n• 핏: 오버사이즈 (FREE)\n• 모델 정보: 키 180cm / 75kg / FREE 착용\n• 실측 (cm): 가슴 64 / 총장 72 / 어깨 64 / 소매 60\n• 첫 세탁 시 단독 권장",
-      "tags": ["NEW", "BEST"]
-    },
-    {
-      "id": "ip-002",
-      "name": "BOXY BASIC TEE",
-      "nameKr": "박시 베이직 티",
-      "category": "TOPS",
-      "price": 17900,
-      "colors": ["WHITE", "BLACK", "GREY"],
-      "sizes": ["FREE"],
-      "images": ["assets/images/ip-002-1.jpg", "assets/images/ip-002-2.jpg"],
-      "description": "박시 핏의 데일리 무지 반팔. 한 장으로도 레이어드로도.\n\n• 소재: 코튼 100% (10수 싱글)\n• 핏: 박시 오버\n• 모델 정보: 키 180cm / FREE 착용\n• 실측 (cm): 가슴 60 / 총장 72 / 어깨 58 / 소매 24",
-      "tags": ["NEW"]
-    },
-    {
-      "id": "ip-003",
-      "name": "CHUNKY KNIT VEST",
-      "nameKr": "청키 니트 베스트",
-      "category": "TOPS",
-      "price": 39900,
-      "colors": ["CREAM", "CHARCOAL"],
-      "sizes": ["FREE"],
-      "images": ["assets/images/ip-003-1.jpg", "assets/images/ip-003-2.jpg"],
-      "description": "셔츠·긴팔 위에 레이어드하기 좋은 청키 니트 베스트.\n\n• 소재: 아크릴 70%, 울 30%\n• 핏: 오버\n• 케어: 드라이클리닝 권장",
-      "tags": []
-    },
-    {
-      "id": "ip-004",
-      "name": "WIDE CARGO PANTS",
-      "nameKr": "와이드 카고 팬츠",
-      "category": "BOTTOMS",
-      "price": 49900,
-      "colors": ["OLIVE", "BLACK", "BEIGE"],
-      "sizes": ["S", "M", "L"],
-      "images": ["assets/images/ip-004-1.jpg", "assets/images/ip-004-2.jpg"],
-      "description": "와이드 실루엣의 데일리 카고. 후드·니트와 매치 좋음.\n\n• 소재: 코튼 65%, 폴리 35%\n• 핏: 와이드 스트레이트\n• 사이즈: S(28~30) / M(30~32) / L(32~34)",
-      "tags": ["BEST"]
-    },
-    {
-      "id": "ip-005",
-      "name": "WASHED WIDE DENIM",
-      "nameKr": "워싱 와이드 데님",
-      "category": "BOTTOMS",
-      "price": 59900,
-      "colors": ["LIGHT BLUE", "MID BLUE"],
-      "sizes": ["S", "M", "L"],
-      "images": ["assets/images/ip-005-1.jpg", "assets/images/ip-005-2.jpg"],
-      "description": "빈티지 워싱이 들어간 와이드 데님.\n\n• 소재: 코튼 100%\n• 핏: 와이드 스트레이트\n• 워싱: 빈티지 라이트\n• 사이즈: S(28~30) / M(30~32) / L(32~34)",
-      "tags": ["NEW"]
-    },
-    {
-      "id": "ip-006",
-      "name": "MA-1 NYLON JACKET",
-      "nameKr": "MA-1 나일론 자켓",
+      "name": "DOUBLE-BREASTED TAILORED JACKET",
+      "nameKr": "더블브레스트 테일러드 재킷",
       "category": "OUTER",
-      "price": 89900,
-      "colors": ["BLACK", "KHAKI"],
-      "sizes": ["FREE"],
-      "images": ["assets/images/ip-006-1.jpg", "assets/images/ip-006-2.jpg"],
-      "description": "스테디 셀러 MA-1. 가을·초겨울용 라이트 아우터.\n\n• 겉감: 나일론 100%\n• 안감: 폴리에스터 100%\n• 핏: 오버\n• 충전재 없음 (라이트)",
-      "tags": ["BEST"]
-    },
-    {
-      "id": "ip-007",
-      "name": "COACH JACKET",
-      "nameKr": "코치 자켓",
-      "category": "OUTER",
-      "price": 69900,
-      "colors": ["BEIGE", "BLACK"],
-      "sizes": ["FREE"],
-      "images": ["assets/images/ip-007-1.jpg", "assets/images/ip-007-2.jpg"],
-      "description": "스냅 버튼 데일리 코치 자켓. 환절기 머스트.\n\n• 소재: 폴리 60%, 코튼 40%\n• 핏: 레귤러\n• 케어: 일반 세탁",
-      "tags": []
-    },
-    {
-      "id": "ip-008",
-      "name": "STRUCTURED BALL CAP",
-      "nameKr": "스트럭처 볼캡",
-      "category": "ACC",
-      "price": 19900,
-      "colors": ["BLACK", "CREAM", "NAVY"],
-      "sizes": ["FREE"],
-      "images": ["assets/images/ip-008-1.jpg", "assets/images/ip-008-2.jpg"],
-      "description": "정면 자수 디테일 데일리 볼캡.\n\n• 소재: 코튼 100%\n• 사이즈: 56~60cm 어드저스터블",
-      "tags": []
-    },
-    {
-      "id": "ip-009",
-      "name": "BLACK TAILORED JACKET",
-      "nameKr": "블랙 테일러드 재킷",
-      "category": "OUTER",
-      "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "정제된 블랙 실루엣과 선명한 라펠. 담백한 이너와 함께 차분하면서도 또렷한 인상을 완성합니다.",
-      "tags": [
-        "JIPI EDIT"
-      ],
+      "tags": [],
+      "description": "선명한 라펠과 정제된 블랙 실루엣. 오픈칼라 셔츠와 어우러지는 여유로운 테일러링.",
       "images": [
-        "assets/images/ip-009-1.jpg"
+        "assets/images/ip-001-noir-1.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-009-1-thumb.webp",
+          "thumbnail": "assets/images/ip-001-noir-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-002",
+      "name": "ESPRESSO OPEN-COLLAR SHIRT",
+      "nameKr": "에스프레소 오픈칼라 셔츠",
+      "category": "TOPS",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "tags": [],
+      "description": "깊은 에스프레소 톤과 자연스럽게 열린 칼라. 힘을 뺀 자세에도 존재감이 남는 셔츠 스타일.",
+      "images": [
+        "assets/images/ip-002-noir-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-002-noir-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-003",
+      "name": "CHARCOAL MOCK-NECK KNIT",
+      "nameKr": "차콜 모크넥 니트",
+      "category": "TOPS",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "tags": [],
+      "description": "목선을 간결하게 감싸는 반폴라와 차분한 차콜 톤. 슬랙스와 함께 정돈된 실루엣을 연출합니다.",
+      "images": [
+        "assets/images/ip-003-noir-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-003-noir-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-004",
+      "name": "BLACK WIDE TAILORED TROUSERS",
+      "nameKr": "블랙 와이드 테일러드 트라우저",
+      "category": "BOTTOMS",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "tags": [],
+      "description": "깊은 플리츠와 길게 떨어지는 와이드 라인. 절제된 블랙으로 완성하는 여유 있는 테일러드 스타일.",
+      "images": [
+        "assets/images/ip-004-noir-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-004-noir-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-005",
+      "name": "TAUPE OPEN-COLLAR KNIT POLO",
+      "nameKr": "토프 오픈칼라 니트 폴로",
+      "category": "TOPS",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "tags": [],
+      "description": "차분한 토프 톤과 자연스럽게 열린 칼라. 간결한 니트 라인이 테일러드 팬츠와 어우러지는 비즈니스 캐주얼 스타일.",
+      "images": [
+        "assets/images/ip-005-business-r4-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-005-business-r4-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-006",
+      "name": "GREIGE RELAXED TAILORED JACKET",
+      "nameKr": "그레이지 릴랙스드 테일러드 재킷",
+      "category": "OUTER",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "tags": [],
+      "description": "부드러운 그레이지 톤과 힘을 뺀 테일러드 실루엣. 밝은 니트와 함께 일과 여유 사이의 균형을 제안합니다.",
+      "images": [
+        "assets/images/ip-006-business-r4-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-006-business-r4-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-007",
+      "name": "ESPRESSO KNIT LOUNGE SET",
+      "nameKr": "에스프레소 니트 라운지 세트",
+      "category": "TOPS",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "tags": [],
+      "description": "집 칼라 상의와 여유로운 하의를 같은 톤으로 연결한 니트 스타일. 편안함 속에서도 흐트러지지 않는 인상.",
+      "images": [
+        "assets/images/ip-007-noir-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-007-noir-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-008",
+      "name": "BLACK STRUCTURED TOTE",
+      "nameKr": "블랙 스트럭처 토트",
+      "category": "ACC",
+      "audience": "MEN",
+      "collection": "THE BUSINESS EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "tags": [],
+      "description": "또렷한 형태와 깊은 블랙 텍스처. 간결한 수트에 자연스럽게 더하는 토트 스타일.",
+      "images": [
+        "assets/images/ip-008-noir-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-008-noir-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-009",
+      "name": "IVORY CONTRAST TWEED JACKET",
+      "nameKr": "아이보리 배색 트위드 재킷",
+      "category": "OUTER",
+      "audience": "WOMEN",
+      "collection": "PREMIUM EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "아이보리·블랙 배색과 입체적인 표면, 허리선을 정돈한 실루엣의 재킷.",
+      "tags": [
+        "PREMIUM EDIT"
+      ],
+      "images": [
+        "assets/images/ip-009-ivory-contrast-tweed-jacket.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-009-ivory-contrast-tweed-jacket-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-010",
-      "name": "IVORY MOCK-NECK KNIT",
-      "nameKr": "아이보리 모크넥 니트",
+      "name": "ROSE PUFF-SLEEVE KNIT",
+      "nameKr": "로즈 퍼프 슬리브 니트",
       "category": "TOPS",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "목선을 간결하게 감싸는 모크넥과 부드러운 아이보리 톤. 절제된 실루엣으로 일상의 룩에 여유를 더합니다.",
+      "description": "볼륨 있는 소매와 어깨 장식으로 포인트를 준 로즈 컬러 니트.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-010-1.jpg"
+        "assets/images/ip-010-rose-sculpted-knit-top.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-010-1-thumb.webp",
+          "thumbnail": "assets/images/ip-010-rose-sculpted-knit-top-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-011",
-      "name": "CHARCOAL WIDE TROUSERS",
-      "nameKr": "차콜 와이드 트라우저",
+      "name": "IVORY HIGH-WAIST TROUSERS",
+      "nameKr": "아이보리 하이웨이스트 슬랙스",
       "category": "BOTTOMS",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "길게 떨어지는 와이드 라인과 깊이 있는 차콜 톤. 간결한 상의와 매치해 균형 잡힌 실루엣을 연출합니다.",
+      "description": "높은 허리선과 앞주름, 길게 이어지는 와이드 실루엣의 아이보리 팬츠.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-011-1.jpg"
+        "assets/images/ip-011-ivory-high-waist-wide-slacks.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-011-1-thumb.webp",
+          "thumbnail": "assets/images/ip-011-ivory-high-waist-wide-slacks-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-012",
-      "name": "CAMEL BELTED LONG COAT",
-      "nameKr": "카멜 벨티드 롱 코트",
+      "name": "BLACK SCULPTED-WAIST JACKET",
+      "nameKr": "블랙 스컬프티드 웨이스트 재킷",
       "category": "OUTER",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "따뜻한 카멜 톤에 길게 이어지는 코트 라인. 벨트로 실루엣에 변화를 주어 단정한 분위기를 완성합니다.",
+      "description": "곡선 절개와 잘록한 허리선, 살짝 퍼지는 밑단이 돋보이는 테일러드 재킷.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-012-1.jpg"
+        "assets/images/ip-012-black-sculpted-waist-jacket.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-012-1-thumb.webp",
+          "thumbnail": "assets/images/ip-012-black-sculpted-waist-jacket-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-013",
-      "name": "CREAM COLLARED CARDIGAN",
-      "nameKr": "크림 칼라 카디건",
+      "name": "BLACK CONTRAST-TRIM CARDIGAN",
+      "nameKr": "블랙 아이보리 배색 카디건",
       "category": "TOPS",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "크림 톤과 단정한 칼라가 어우러진 카디건. 버튼 라인을 중심으로 편안함과 격식 사이의 균형을 담았습니다.",
+      "description": "블랙 바탕에 아이보리 테두리와 라운드 장식을 더한 카디건.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-013-1.jpg"
+        "assets/images/ip-013-black-ivory-trim-cardigan.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-013-1-thumb.webp",
+          "thumbnail": "assets/images/ip-013-black-ivory-trim-cardigan-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-014",
-      "name": "BURGUNDY DRAPED BLOUSE",
-      "nameKr": "버건디 드레이프 블라우스",
+      "name": "IVORY BOW-NECK BLOUSE",
+      "nameKr": "아이보리 보우넥 블라우스",
       "category": "TOPS",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "깊은 버건디 톤과 자연스럽게 흐르는 드레이프. 심플한 하의와 함께 색과 선만으로 존재감을 드러냅니다.",
+      "description": "목선의 보우 디테일과 부드러운 소매 볼륨이 돋보이는 아이보리 블라우스.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-014-1.jpg"
+        "assets/images/ip-014-ivory-bow-neck-blouse.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-014-1-thumb.webp",
+          "thumbnail": "assets/images/ip-014-ivory-bow-neck-blouse-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-015",
-      "name": "NAVY KNIT LOUNGE SET",
-      "nameKr": "네이비 니트 라운지 세트",
+      "name": "PALE BLUE TWEED VEST",
+      "nameKr": "페일 블루 트위드 베스트",
       "category": "TOPS",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "차분한 네이비 톤으로 이어지는 니트 스타일링. 여유로운 라인과 간결한 디테일이 편안한 순간에도 정돈된 인상을 전합니다.",
+      "description": "페일 블루의 입체적인 조직감과 허리선을 살린 베스트.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-015-1.jpg"
+        "assets/images/ip-015-pale-blue-tweed-waistcoat.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-015-1-thumb.webp",
+          "thumbnail": "assets/images/ip-015-pale-blue-tweed-waistcoat-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-016",
-      "name": "BLACK PLEATED LONG SKIRT",
-      "nameKr": "블랙 플리츠 롱 스커트",
+      "name": "BLACK MERMAID MIDI SKIRT",
+      "nameKr": "블랙 머메이드 미디스커트",
       "category": "BOTTOMS",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "블랙 위로 리듬을 만드는 플리츠와 긴 스커트 라인. 움직임에 따라 달라지는 실루엣으로 담백한 룩에 깊이를 더합니다.",
+      "description": "힙에서 무릎까지 이어지는 곡선과 무릎 아래로 퍼지는 머메이드 미디 실루엣.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-016-1.jpg"
+        "assets/images/ip-016-black-mermaid-midi-skirt.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-016-1-thumb.webp",
+          "thumbnail": "assets/images/ip-016-black-mermaid-midi-skirt-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-017",
-      "name": "TAUPE CROPPED JACKET",
-      "nameKr": "토프 크롭 재킷",
-      "category": "OUTER",
+      "name": "ECRU PEPLUM BLOUSE",
+      "nameKr": "에크루 스컬프티드 페플럼 블라우스",
+      "category": "TOPS",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "차분한 토프 톤과 간결한 크롭 길이. 하이웨이스트 하의와 조합해 선명하고 균형 있는 비율을 연출합니다.",
+      "description": "스퀘어 넥과 볼륨 소매, 허리 아래로 짧게 퍼지는 페플럼 블라우스.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-017-1.jpg"
+        "assets/images/ip-017-ecru-sculpted-peplum-blouse.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-017-1-thumb.webp",
+          "thumbnail": "assets/images/ip-017-ecru-sculpted-peplum-blouse-thumb.webp",
           "thumbnailWidth": 544
         }
       ]
     },
     {
       "id": "ip-018",
-      "name": "STRUCTURED MINI BAG",
-      "nameKr": "스트럭처 미니 백",
+      "name": "BLACK STRUCTURED SHOULDER BAG",
+      "nameKr": "블랙 스트럭처드 숄더백",
       "category": "ACC",
       "audience": "WOMEN",
-      "collection": "JIPI EDIT",
+      "collection": "PREMIUM EDIT",
       "price": null,
       "inquiryOnly": true,
       "colors": [],
       "sizes": [],
-      "description": "작은 크기에 또렷한 형태를 담은 미니 백. 절제된 스타일링에 가볍게 더하는 하나의 포인트.",
+      "description": "간결한 블랙 보디와 짧은 체인 스트랩이 조화를 이루는 작은 숄더백.",
       "tags": [
-        "JIPI EDIT"
+        "PREMIUM EDIT"
       ],
       "images": [
-        "assets/images/ip-018-1.jpg"
+        "assets/images/ip-018-black-structured-shoulder-bag.jpg"
       ],
       "imageMetadata": [
         {
           "width": 1086,
           "height": 1448,
-          "thumbnail": "assets/images/ip-018-1-thumb.webp",
+          "thumbnail": "assets/images/ip-018-black-structured-shoulder-bag-thumb.webp",
           "thumbnailWidth": 544
         }
       ]

@@ -1,10 +1,10 @@
 :root {
-  --c-bg:#f3f1eb;
-  --c-fg:#181916;
-  --c-muted:#696b63;
-  --c-line:#d5d4cc;
-  --c-dark:#111310;
-  --c-paper:#f3f1eb;
+  --c-bg:#f1eee7;
+  --c-fg:#1b1a18;
+  --c-muted:#666059;
+  --c-line:#d6cfc3;
+  --c-dark:#171614;
+  --c-paper:#f1eee7;
   --f-body:"Helvetica Neue","Apple SD Gothic Neo","Noto Sans KR",sans-serif;
   --f-display:"Arial Narrow","Helvetica Neue",sans-serif;
   --f-mono:"SFMono-Regular",Consolas,monospace;
@@ -170,13 +170,13 @@ main {
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:50% 44%
+  object-position:50% 0%
 }
 .hero:after {
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(90deg,rgba(7,10,7,.66),rgba(7,10,7,.03) 68%),linear-gradient(0deg,rgba(7,10,7,.36),transparent 35%);
+  background:linear-gradient(90deg,rgba(18,17,15,.66),rgba(18,17,15,.03) 68%),linear-gradient(0deg,rgba(18,17,15,.36),transparent 35%);
   pointer-events:none
 }
 .hero-topline {
@@ -203,10 +203,10 @@ main {
 }
 .hero h1 {
   font-family:var(--f-display);
-  font-size:clamp(80px,8.5vw,138px);
-  line-height:.91;
-  letter-spacing:-8px;
-  font-weight:800
+  font-size:clamp(80px,8vw,128px);
+  line-height:.92;
+  letter-spacing:-6px;
+  font-weight:600
 }
 .hero h1>span {
   display:block;
@@ -299,7 +299,7 @@ main {
   position:relative;
   aspect-ratio:3/4;
   overflow:hidden;
-  background:#dfded6
+  background:#e2ddd3
 }
 .product-image img {
   position:absolute;
@@ -376,7 +376,7 @@ main {
 .attitude-editorial {
   display:grid;
   grid-template-columns:1.15fr 1fr;
-  background:#e8e6df
+  background:#e6e0d6
 }
 .editorial-image {
   position:relative;
@@ -412,7 +412,7 @@ main {
 }
 .editorial-copy p {
   font-size:12px;
-  color:#55594f;
+  color:var(--c-muted);
   line-height:2
 }
 .editorial-copy .text-link {
@@ -469,7 +469,7 @@ main {
   margin:auto
 }
 .shop-head h1 {
-  font-size:clamp(42px,6.3vw,88px);
+  font-size:clamp(42px,5.8vw,80px);
   font-weight:500;
   line-height:1.05;
   letter-spacing:-4px;
@@ -541,7 +541,7 @@ main {
 .detail-images img {
   aspect-ratio:3/4;
   object-fit:cover;
-  background:#dfded6
+  background:#e2ddd3
 }
 .detail-info {
   position:sticky;
@@ -764,7 +764,7 @@ main {
   background:var(--c-dark);
   color:var(--c-bg);
   padding:65px 4.3% 25px;
-  border-top:1px solid #32342d
+  border-top:1px solid #3b3832
 }
 .footer-inner {
   max-width:1645px;
@@ -789,7 +789,7 @@ main {
 .footer-brand p {
   font-size:10px;
   line-height:2;
-  color:#a8ada0;
+  color:#b5aea4;
   margin-top:22px;
   letter-spacing:.5px
 }
@@ -797,7 +797,7 @@ main {
   font-size:9px;
   letter-spacing:1.7px;
   font-weight:400;
-  color:#979d90;
+  color:#b5aea4;
   margin:0 0 20px
 }
 .footer-col ul {
@@ -811,8 +811,8 @@ main {
   max-width:1645px;
   margin:auto;
   padding:22px 0;
-  border-top:1px solid #32342d;
-  color:#a3a799;
+  border-top:1px solid #3b3832;
+  color:#b5aea4;
   font-size:9px;
   line-height:1.9
 }
@@ -829,7 +829,7 @@ main {
   font-family:var(--f-mono);
   font-size:8px;
   letter-spacing:.5px;
-  color:#a3a799
+  color:#b5aea4
 }
 @media(hover:hover) {
   .product-card:hover .img-back {
@@ -863,7 +863,7 @@ main {
     font-size:29px
   }
   .hero-img {
-    object-position:58% center
+    object-position:76% 0%
   }
   .product-grid {
     gap:35px 16px;
@@ -974,10 +974,10 @@ main {
     min-height:580px
   }
   .hero-img {
-    object-position:63% 30%
+    object-position:80% 0%
   }
   .hero:after {
-    background:linear-gradient(0deg,rgba(6,9,6,.86) 0%,rgba(6,9,6,.52) 35%,rgba(6,9,6,0) 78%)
+    background:linear-gradient(0deg,rgba(18,17,15,.86) 0%,rgba(18,17,15,.52) 35%,rgba(18,17,15,0) 78%)
   }
   .hero-topline {
     left:22px;
@@ -1404,4 +1404,12 @@ main {
 @media (max-width:600px) {
   .shop-filter { flex-wrap:wrap; column-gap:17px; row-gap:0; }
   .shop-filter .filter-btn { min-height:48px; padding:14px 0; }
+}
+
+@media (min-width:1001px) {
+  .section { padding-top:104px; padding-bottom:120px; }
+  .shop-section { padding-top:0; }
+  .product-grid { gap:50px 24px; }
+  .shop-head { padding-top:96px; padding-bottom:64px; }
+  .section-header { margin-bottom:42px; }
 }

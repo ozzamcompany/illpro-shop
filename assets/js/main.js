@@ -29,7 +29,7 @@ const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;'
 let _cache = null;
 async function loadProducts() {
   if (_cache) return _cache;
-  const res = await fetch('data/products.json?v=20261031-jipi');
+  const res = await fetch('data/products.json?v=20261031-premium1');
   if (!res.ok) throw new Error('products.json 로드 실패');
   const json = await res.json();
   const editOrder = ['ip-009', 'ip-010', 'ip-011', 'ip-012', 'ip-013', 'ip-014', 'ip-015', 'ip-016', 'ip-017', 'ip-018', 'ip-003', 'ip-007', 'ip-006', 'ip-005', 'ip-001', 'ip-002', 'ip-004', 'ip-008'];
@@ -53,12 +53,12 @@ function imageHTML(p, index, extra = '') {
   const src = p.images[index];
   const meta = imageMetadata(p, index);
   const alt = index === 0 ? p.nameKr : '';
-  return `<img src="${escapeHTML(src)}?v=20261031-jipi" srcset="${escapeHTML(meta.thumbnail)}?v=20261031-jipi ${meta.thumbnailWidth}w, ${escapeHTML(src)}?v=20261031-jipi ${meta.width}w" sizes="(max-width:600px) calc((100vw - 48px) / 2), (max-width:1000px) 31vw, 23vw" alt="${escapeHTML(alt)}" width="${meta.width}" height="${meta.height}" loading="lazy" decoding="async" ${extra}>`;
+  return `<img src="${escapeHTML(src)}?v=20261031-premium1" srcset="${escapeHTML(meta.thumbnail)}?v=20261031-premium1 ${meta.thumbnailWidth}w, ${escapeHTML(src)}?v=20261031-premium1 ${meta.width}w" sizes="(max-width:600px) calc((100vw - 48px) / 2), (max-width:1000px) 31vw, 23vw" alt="${escapeHTML(alt)}" width="${meta.width}" height="${meta.height}" loading="lazy" decoding="async" ${extra}>`;
 }
 function detailImageHTML(p, index) {
   const meta = imageMetadata(p, index);
   const alt = `${p.nameKr} ${p.images.length === 1 ? '스타일링' : index === 0 ? '정면' : '다른 각도'}`;
-  return `<img src="${escapeHTML(p.images[index])}?v=20261031-jipi" alt="${escapeHTML(alt)}" width="${meta.width}" height="${meta.height}" style="aspect-ratio:${meta.width}/${meta.height}" ${index === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`;
+  return `<img src="${escapeHTML(p.images[index])}?v=20261031-premium1" alt="${escapeHTML(alt)}" width="${meta.width}" height="${meta.height}" style="aspect-ratio:${meta.width}/${meta.height}" ${index === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`;
 }
 function productCardHTML(p) {
   const tags = (p.tags || []).map(t => `<span class="product-tag">${escapeHTML(t)}</span>`).join('');
@@ -80,7 +80,7 @@ const loadError = '<div class="product-grid-empty" role="alert"><p>상품을 불
     const buttons = [...document.querySelectorAll('[data-filter]')];
     if (!buttons.some(button => button.dataset.filter === active)) active = 'ALL';
     const render = () => {
-      const filtered = active === 'ALL' ? products : products.filter(p => active === 'JIPI' ? p.collection === 'JIPI EDIT' : p.category === active);
+      const filtered = active === 'ALL' ? products : products.filter(p => active === 'PREMIUM' ? p.collection === 'PREMIUM EDIT' : p.category === active);
       buttons.forEach(b => { b.classList.toggle('active',b.dataset.filter === active); b.setAttribute('aria-pressed', String(b.dataset.filter === active)); });
       grid.innerHTML = filtered.length ? filtered.map(productCardHTML).join('') : '<div class="product-grid-empty"><p>이 카테고리에는 아직 상품이 없습니다.</p><a class="text-link" href="shop.html">전체 컬렉션 <span>↗</span></a></div>';
       document.querySelector('[data-product-count]').textContent = `${filtered.length} ITEMS`;
