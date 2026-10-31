@@ -95,6 +95,276 @@
       "images": ["assets/images/ip-008-1.jpg", "assets/images/ip-008-2.jpg"],
       "description": "정면 자수 디테일 데일리 볼캡.\n\n• 소재: 코튼 100%\n• 사이즈: 56~60cm 어드저스터블",
       "tags": []
+    },
+    {
+      "id": "ip-009",
+      "name": "BLACK TAILORED JACKET",
+      "nameKr": "블랙 테일러드 재킷",
+      "category": "OUTER",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "정제된 블랙 실루엣과 선명한 라펠. 담백한 이너와 함께 차분하면서도 또렷한 인상을 완성합니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-009-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-009-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-010",
+      "name": "IVORY MOCK-NECK KNIT",
+      "nameKr": "아이보리 모크넥 니트",
+      "category": "TOPS",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "목선을 간결하게 감싸는 모크넥과 부드러운 아이보리 톤. 절제된 실루엣으로 일상의 룩에 여유를 더합니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-010-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-010-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-011",
+      "name": "CHARCOAL WIDE TROUSERS",
+      "nameKr": "차콜 와이드 트라우저",
+      "category": "BOTTOMS",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "길게 떨어지는 와이드 라인과 깊이 있는 차콜 톤. 간결한 상의와 매치해 균형 잡힌 실루엣을 연출합니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-011-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-011-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-012",
+      "name": "CAMEL BELTED LONG COAT",
+      "nameKr": "카멜 벨티드 롱 코트",
+      "category": "OUTER",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "따뜻한 카멜 톤에 길게 이어지는 코트 라인. 벨트로 실루엣에 변화를 주어 단정한 분위기를 완성합니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-012-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-012-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-013",
+      "name": "CREAM COLLARED CARDIGAN",
+      "nameKr": "크림 칼라 카디건",
+      "category": "TOPS",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "크림 톤과 단정한 칼라가 어우러진 카디건. 버튼 라인을 중심으로 편안함과 격식 사이의 균형을 담았습니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-013-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-013-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-014",
+      "name": "BURGUNDY DRAPED BLOUSE",
+      "nameKr": "버건디 드레이프 블라우스",
+      "category": "TOPS",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "깊은 버건디 톤과 자연스럽게 흐르는 드레이프. 심플한 하의와 함께 색과 선만으로 존재감을 드러냅니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-014-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-014-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-015",
+      "name": "NAVY KNIT LOUNGE SET",
+      "nameKr": "네이비 니트 라운지 세트",
+      "category": "TOPS",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "차분한 네이비 톤으로 이어지는 니트 스타일링. 여유로운 라인과 간결한 디테일이 편안한 순간에도 정돈된 인상을 전합니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-015-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-015-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-016",
+      "name": "BLACK PLEATED LONG SKIRT",
+      "nameKr": "블랙 플리츠 롱 스커트",
+      "category": "BOTTOMS",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "블랙 위로 리듬을 만드는 플리츠와 긴 스커트 라인. 움직임에 따라 달라지는 실루엣으로 담백한 룩에 깊이를 더합니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-016-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-016-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-017",
+      "name": "TAUPE CROPPED JACKET",
+      "nameKr": "토프 크롭 재킷",
+      "category": "OUTER",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "차분한 토프 톤과 간결한 크롭 길이. 하이웨이스트 하의와 조합해 선명하고 균형 있는 비율을 연출합니다.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-017-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-017-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
+    },
+    {
+      "id": "ip-018",
+      "name": "STRUCTURED MINI BAG",
+      "nameKr": "스트럭처 미니 백",
+      "category": "ACC",
+      "audience": "WOMEN",
+      "collection": "JIPI EDIT",
+      "price": null,
+      "inquiryOnly": true,
+      "colors": [],
+      "sizes": [],
+      "description": "작은 크기에 또렷한 형태를 담은 미니 백. 절제된 스타일링에 가볍게 더하는 하나의 포인트.",
+      "tags": [
+        "JIPI EDIT"
+      ],
+      "images": [
+        "assets/images/ip-018-1.jpg"
+      ],
+      "imageMetadata": [
+        {
+          "width": 1086,
+          "height": 1448,
+          "thumbnail": "assets/images/ip-018-1-thumb.webp",
+          "thumbnailWidth": 544
+        }
+      ]
     }
   ]
 }
